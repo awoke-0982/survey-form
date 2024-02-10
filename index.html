@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="title-parag">
+    <h1 id="title">freeCodeCamp Survey Form</h1><br>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+</div>
+    <div id="container" class="container" title-parag >
+        <br><form id="survey-form" class="survey-form" action="http://freecodecamp.com" method="get">
+
+            <div class="form-group"> 
+                <label for="name" id="name-label"type="text" >Name</label>     <br>  <br>  
+                <input type="text" id="name" placeholder="Enter your Name" required><br><br>
+    
+                <label for="email" id="email-label"type="text" >Email</label>  <br>  
+                  <br>   <input type="email" id="email" placeholder="Enter your Email"value="email" autocomplete="off" required><br><br>
+    
+                <label for="Number" id="number-label" type="text" >Age optional</label>  <br>   <br>  
+                  <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" required><br><br>
+    
+            </div>
+          
+            <div class="form-group"> 
+            <p class="parag">Which option best describes your current role?</p>
+            <select name="" id="dropdown">
+                <option class="role" id="dropdown" value="select current role"></option>
+                <option id="dropdown"  value="">Full time Job</option>
+                <option id="dropdown"  value="">Full time learner</option>
+                <option id="dropdown"  value="">Prefer NoT To stay</option>
+                <option id="dropdown"  value="">other</option>
+            </select>
+            </div>
+            <br>
+
+            <div class="form-group"> 
+            <p class="parag">Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" id="radio" name ="text"value ="Definitely">Definitely<br>
+            <input type="radio" id="radio" name ="text"value ="Maybe">Maybe<br>
+            <input type="radio" id="radio" name ="text" value ="sure">Not sure<br>
+</div>
+
+
+<div class="form-group"> 
+            <p class="parag">What is your favorite feature of freeCodeCamp?</p>
+            <select name="" id="">
+                <option id="dropdowns" value="select an option"></option>
+                <option id="dropdowns"  value="">Challenges </option>
+                <option id="dropdowns"  value="">Projects</option>
+                <option id="dropdowns"  value="">Community</option>
+                <option id="dropdowns"  value="">open source</option>   
+            </select>
+            </div>
+
+<div class="form-group"> 
+            <p class="parag">What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox"value ="Front-end Projects">Front-end Projects<br>
+            <input type="checkbox" value ="Back-end Projects">Back-end Projects<br>
+            <input type="checkbox" value ="Data Visualization">Data Visualization<br>
+            <input type="checkbox" value ="Challenges">Challenges<br>
+            <input type="checkbox" value ="Open Source Community">Open Source Community<br>
+            <input type="checkbox" value ="Gitter help rooms">Gitter help rooms<br>
+            <input type="checkbox"value ="Videos">Videos<br>
+            <input type="checkbox"  value ="City Meetups">City Meetups<br>
+            <input type="checkbox" value ="Wiki">Wiki<br>
+            <input type="checkbox" value ="Forum">Forum<br>
+            <input type="checkbox" value ="Additional Courses">Additional Courses<br>
+ </div>
+ 
+ <div class="form-group"> 
+        <textarea name="text" id="comments" cols="88" rows="10" placeholder="Enter Your comments here "></textarea>   <br>
+</div>
+
+<div class="form-group"> 
+        <br><input type="submit" name="" id="submit">
+        </div>
+        </form> 
+    </div>
+</body>
+</html>
+

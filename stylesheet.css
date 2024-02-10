@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    color:  #F3F3F3;;
+    list-style: none;
+    scroll-behavior: smooth;
+    background-color: rgb(26, 65, 138);
+box-sizing: border-box;
+
+
+} 
+#title-parag{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    line-height: 0.4rem;
+    color: white;
+    font-family: sans-serif;
+}
+#container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px 17%;
+  
+    /* width:800px;
+    height: 1000px; */
+    /* margin-left: 30%;
+    margin-top: 3%; */
+}
+#name ,#email ,#number,#dropdown,#dropdowns{
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width:90%;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+.dropdown{
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width:100%;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+option{
+    width: 1177px;
+    padding:45px;
+}
+#lable-name{
+    font-size:20px ;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+}
+form{
+    position: relative;
+    top: 45px;
+    left: 35px;
+    background-color: #1b1b32CC;
+    color:#F3F3F3;
+    width:750px;
+    padding-left: 45px;
+    padding-top: 30px;
+}
+.parag ,#radio{
+    color:white;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.container ,.survey-form{
+    position: relative;
+}
+ select ,.form-group{
+    position: relative;
+} 
+.form-group ,.dropdown{
+   width: 100%;
+   height: 3%;
+}
+#submit{
+
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 4px;
+    width: 88%;
+    padding: 15px
+}
+@media(max-width:1200px){
+    html{
+        font-size: 95%;
+    }
+}
+
+@media(max-width:991px){
+    .container ,.survey-form{
+        padding: 3%,3% ,3%, 3%;
+
+    }
+} 
+
+@media(max-width:768px){
+    .container ,.survey-form{
+        padding: 3%,3% ,3%, 3%;
+    }
+} 
+
+@media(max-width:530px){
+    html{
+        font-size: 80%;
+    }
+    .survey-form{
+        padding: 3%,3% ,3%, 3%;
+    }
+}
